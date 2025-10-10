@@ -1,0 +1,2 @@
+web: bin/rails server
+css: /Users/go/.asdf/installs/ruby/3.1.4/lib/ruby/gems/3.1.0/gems/tailwindcss-rails-2.7.9-arm64-darwin/exe/arm64-darwin/tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/tailwind.css --watch
