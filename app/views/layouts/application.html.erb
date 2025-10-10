@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Blog</title>
-    <h1>My Blog</h1>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -16,7 +15,7 @@
     <p class="notice"><%= notice %> </p>
     <p class="alert"><%= alert %> </p>
 
-  <div>
+  <div class="flex gap-4 mb-4">
 
   <% if user_signed_in? %>
    <%= link_to "New BlogPost", new_blog_post_path %>
